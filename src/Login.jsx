@@ -18,7 +18,7 @@ export default function Login() {
     }
     function handleSubmit(event) {
         if (username === 'admin' && password === 'admin') {
-            navigate('/marks')
+            navigate('/TableTaskReact/marks')
         } else {
             setError('Invalid Username or Password')
             event.preventDefault(); 

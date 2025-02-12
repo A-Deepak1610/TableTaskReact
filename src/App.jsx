@@ -6,8 +6,8 @@ function App() {
     <>
     
     <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/marks" element={<Markentery />} />
+        <Route path="/TableTaskReact/" element={<Login />} />
+        <Route path="/TableTaskReact/marks" element={<Markentery />} />
     </Routes>
     </>
   )
